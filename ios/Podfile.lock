@@ -1,0 +1,60 @@
+PODS:
+  - asli-common (1.0.0)
+  - asli-core (7.5.3)
+  - asli-face-camera (7.5.3)
+  - asli-face-capture (7.5.3)
+  - asli-face-commons (7.5.3)
+  - asli-face-core (7.5.3):
+    - asli-core (= 7.5.3)
+    - asli-face-camera (= 7.5.3)
+    - asli-face-capture (= 7.5.3)
+    - asli-face-commons (= 7.5.3)
+    - asli-face-protobuf (= 1.5.0)
+    - asli-iface (= 5.1.1)
+  - asli-face-detection-fast (7.5.3):
+    - asli-face-core (= 7.5.3)
+  - asli-face-onnx (2.1.1)
+  - asli-face-protobuf (1.5.0)
+  - asli-iface (5.1.1):
+    - asli-face-onnx (= 2.1.1)
+  - asli-passive-liveness (2.0.1):
+    - asli-common (= 1.0.0)
+    - asli-face-detection-fast (= 7.5.3)
+    - asli-session-core (= 1.0.0)
+  - asli-session-core (1.0.0)
+
+DEPENDENCIES:
+  - asli-passive-liveness (= 2.0.1)
+
+SPEC REPOS:
+  https://github.com/Asli-RI/asliri-podspecs:
+    - asli-common
+    - asli-core
+    - asli-face-camera
+    - asli-face-capture
+    - asli-face-commons
+    - asli-face-core
+    - asli-face-detection-fast
+    - asli-face-onnx
+    - asli-face-protobuf
+    - asli-iface
+    - asli-passive-liveness
+    - asli-session-core
+
+SPEC CHECKSUMS:
+  asli-common: 0693634537eaf454ecb35128bb3b42ac0d9a7e21
+  asli-core: 86fac5eebb2820c2ce2f6e6a0b74fb31ece04b49
+  asli-face-camera: b95b67026ba129e50516a1252904073a585625f5
+  asli-face-capture: 6bfc29efd48a46543c01b61a1b1e9dd3f5dae726
+  asli-face-commons: 0ceca8cd01c53e98e058b7b088d6edfe7b3704d8
+  asli-face-core: 952418b46a1b1aa5cda8e1aaed94b1b8091c2c65
+  asli-face-detection-fast: a2305ae96959477148d368db732b9fa08d02a416
+  asli-face-onnx: 30ae519bf641b43c04be0823a46e4398e35249ea
+  asli-face-protobuf: 4f73ada5c264549fb644e7939a9c69cd218ed487
+  asli-iface: 2f6b2de3d68c1acb5ec262929c97c4c79da3ec5c
+  asli-passive-liveness: 02d35f7622c0de13e202d98c53b29d1eec60482d
+  asli-session-core: b69e3085085e29abb623ccec2a20bc3e8197ddc3
+
+PODFILE CHECKSUM: 645a7e0ba63294bbc204475f3fbd712f0e632d1f
+
+COCOAPODS: 1.16.2
