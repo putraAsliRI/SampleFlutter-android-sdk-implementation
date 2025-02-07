@@ -1,9 +1,9 @@
 import Flutter
 import UIKit
-import AsliPassiveLiveness
+import AsliSmileLiveness
 
 @main
-@objc class AppDelegate: FlutterAppDelegate, LivenessViewControllerDelegate {
+@objc class AppDelegate: FlutterAppDelegate, SmileLivenessControllerDelegate {
     
     var windows: UIWindow?
     var livenessResult: String? // Menyimpan hasil liveness
@@ -51,7 +51,7 @@ import AsliPassiveLiveness
     }
     
     private func startLiveness(controller: FlutterViewController, result: @escaping FlutterResult) {
-        let livenessVC = LivenessViewController()
+        let livenessVC = SmileLivenessController()
         livenessVC.navigationItem.hidesBackButton = true
         livenessVC.delegate = self // Tetapkan delegate
         // Pastikan controller berada dalam UINavigationController
