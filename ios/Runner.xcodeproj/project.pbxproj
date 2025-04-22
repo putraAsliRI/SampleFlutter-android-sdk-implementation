@@ -18,6 +18,7 @@
 		BA799E6F2D364B6200C11005 /* LivenessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA799E6E2D364B5800C11005 /* LivenessViewController.swift */; };
 		BA799E712D364BA700C11005 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA799E702D364B9F00C11005 /* ContainerViewController.swift */; };
 		BAD3DF862D55F06B00BCB845 /* SmileLivenessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD3DF852D55F05F00BCB845 /* SmileLivenessController.swift */; };
+		BAD3DF882D55F3DB00BCB845 /* EyeGazeLivenessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD3DF872D55F3D400BCB845 /* EyeGazeLivenessController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		BA799E6E2D364B5800C11005 /* LivenessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivenessViewController.swift; sourceTree = "<group>"; };
 		BA799E702D364B9F00C11005 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		BAD3DF852D55F05F00BCB845 /* SmileLivenessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileLivenessController.swift; sourceTree = "<group>"; };
+		BAD3DF872D55F3D400BCB845 /* EyeGazeLivenessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeGazeLivenessController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				BAD3DF872D55F3D400BCB845 /* EyeGazeLivenessController.swift */,
 				BAD3DF852D55F05F00BCB845 /* SmileLivenessController.swift */,
 				BA799E702D364B9F00C11005 /* ContainerViewController.swift */,
 				BA799E6E2D364B5800C11005 /* LivenessViewController.swift */,
@@ -353,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				BAD3DF882D55F3DB00BCB845 /* EyeGazeLivenessController.swift in Sources */,
 				BA799E712D364BA700C11005 /* ContainerViewController.swift in Sources */,
 				BAD3DF862D55F06B00BCB845 /* SmileLivenessController.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,

@@ -8,6 +8,6 @@ target 'Runner' do
   use_frameworks!
 
   # Pods for demo1
-  pod 'asli-smile-liveness', '2.0.1'
+  pod 'asli-eye-gaze-liveness', '2.0.1'
 
 end
