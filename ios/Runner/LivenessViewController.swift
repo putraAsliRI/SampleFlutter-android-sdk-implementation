@@ -47,8 +47,7 @@ extension LivenessViewController: UIGestureRecognizerDelegate {
 
 extension LivenessViewController: AsliPassiveLivenessViewControllerDelegate {
     func didLivenessSuccess(image: UIImage, result: Bool) {
-        self.navigationController?.popViewController(animated: true)
-        self.delegate?.didCompleteLiveness(result: "\(result)")
+        showDialog(result: result)
     }
     
     func didLivenessFailure(code: Int, errorMessage: String) {
@@ -58,5 +57,14 @@ extension LivenessViewController: AsliPassiveLivenessViewControllerDelegate {
     
     func didTapRetake() {
         controller?.start()
+    }
+    
+    func showDialog(result: Bool) {
+        let alert = UIAlertController(title: "Sukses", message: "\(result)", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+            self.navigationController?.popViewController(animated: true)
+            self.delegate?.didCompleteLiveness(result: "\(result)")
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
 }
